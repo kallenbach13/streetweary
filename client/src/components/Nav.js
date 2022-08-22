@@ -32,10 +32,10 @@ function Nav() {
 
     return (
       <div className="bg-white fixed w-full">
-        <div className="max-w-7xl mx-auto flex flex-row justify-around items-center p-2">
+        <div className="max-w-8xl mx-auto flex flex-row justify-around items-center p-2">
               <div className="m-2">
                 <Link to="/">
-                  <p className="text-2xl md:text-3xl lg:text-4xl text-pink-300 text-center font-mono whitespace-nowrap mx-2">Streetweary</p>
+                  <p className="text-2xl md:text-3xl lg:text-4xl text-pink-300 text-center font-serif whitespace-nowrap mx-2">streetweary.</p>
                 </Link>
               </div>
 
@@ -43,7 +43,7 @@ function Nav() {
               <div className="m-2">
                 <Link to="/account">
                   <FontAwesomeIcon className="ml-4" icon={faUserCircle} size="lg" inverse/>
-                  <button   className="hidden lg:inline text-md lg:text-lg text-gray-500 text-center font-mono ml-2"
+                  <button   className="hidden lg:inline text-md lg:text-lg text-gray-500 text-center font-serif ml-2"
                             >Account</button>
                 </Link>
               </div>
@@ -51,14 +51,14 @@ function Nav() {
               {isLoggedIn ?
                 <div className="m-2">
                   <Link to="/">
-                  <button   className="text-md lg:text-lg text-gray-500 text-center font-mono mx-2"
+                  <button   className="text-md lg:text-lg text-gray-500 text-center font-serif mx-2"
                             onClick={handleLogout}>Sign Out</button>
                   </Link>
                 </div>
               :
               <div className="m-2">
               <Link to="/login">
-                <button className="text-md lg:text-lg text-gray-400 text-center font-mono mx-4">Sign In / Register</button>
+                <button className="text-md lg:text-lg text-gray-500 text-center font-serif mx-4">Sign In / Register</button>
               </Link>
               </div>
               }
