@@ -98,24 +98,24 @@ const CheckOut = () => {
 
           <div className="m-4 max-w-2xl">
             <h2 className="font-bold text-xl text-center mb-6">Enter credit card info to pay</h2>
-            <p className="text-lg">You can use credit card nr 4242424242424242 with any future date, CVC and zip-code for testing. This transaction is just a test and will not charge any real money.</p>
+            <p className="text-lg">Use credit card number 4242 4242 4242 4242 for testing. Use any CVC, post code, and future date. This cannot charge real money.</p>
           </div>
 
           <div className="max-w-2xl">
             <div className="mt-4">
               <form id="payment-form" className="mt-4" onSubmit={handleSubmit}>
-                <div className="bg-blue-100 p-4 rounded shadow-lg">
+                <div className="bg-pink-100 p-4 rounded shadow-lg">
                 <CardElement id="card-element" options={cardStyle} onChange={handleChange} />
                 </div>                
                 { (!succeeded && !processing) &&
                 <div className="m-4 flex justify-center">
                   <button onClick={() => history.push('/cart')}
-                  className="m-4 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="m-4 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"
                   >Back to Cart
                   </button>
                   <button
                     id="submit"
-                    className="m-4 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="m-4 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"
                   >Place Order
                   </button>
                 </div>
