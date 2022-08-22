@@ -39,7 +39,7 @@ const ProductDetail = () => {
       <div className="flex-grow p-5">
         { productsStatus === 'succeeded' &&
         <div className="p-10">  
-            <div className="max-w-4xl mx-auto rounded overflow-hidden shadow-lg">
+            <div className="max-w-md mx-auto rounded overflow-hidden shadow-lg">
             <img className="w-full" src={product.image_url} alt={product.name} />
             <div className="px-6 py-4">
                 <div className="font-bold text-xl text-center mb-2">{product.name}</div>
@@ -48,8 +48,8 @@ const ProductDetail = () => {
                 </p>
             </div>
             <div className="px-6 pt-4 pb-2 text-center">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mx-4 mb-2">${product.price}</span>
-                <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mx-4 mb-2 hover:bg-indigo-200 active:bg-indigo-400 focus:outline-none"
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mx-4 mb-2">£{product.price}</span>
+                <button className="inline-block bg-pink-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mx-4 mb-2 hover:bg-pink-400 active:bg-pink-300 focus:outline-none"
                         onClick={handleAddToCartClick}>Add to cart</button>
             </div>
             </div>

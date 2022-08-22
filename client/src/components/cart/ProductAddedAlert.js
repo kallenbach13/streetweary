@@ -29,7 +29,7 @@ const ProductAddedAlert = alertMsg => {
             <div className="fixed mt-12 inset-x-0 mx-auto">
                 { showMsg &&
                     <div className="text-center px-4">
-                        <div className="p-2 bg-indigo-800 items-center text-white leading-none rounded-full flex inline-flex" role="alert">
+                        <div className="p-2 bg-pink-300 items-center text-white leading-none rounded-full flex inline-flex" role="alert">
                             <span className="mr-4"><FontAwesomeIcon className="ml-4" icon={faCartArrowDown} size="lg"/></span>
                             <span className="font-semibold mr-2 text-left flex-auto">{productAddedMsg}</span>
                         </div>

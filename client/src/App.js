@@ -37,7 +37,7 @@ const App = () => {
   return (
     <Elements stripe={promise}>
       <Router>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex bg-grey-300 flex-col min-h-screen">
           <Nav />
           <div className="mt-24 flex flex-col flex-grow">
             <ProductAddedAlert />
