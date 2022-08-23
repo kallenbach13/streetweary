@@ -49,8 +49,8 @@ const ProductCard = ({product}) => {
                             </div>
                         </Link>                        
                         <div className="p-2 text-center">
-                            <div className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">£{product.price}</div>
-                            <button   className="inline-block bg-pink-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-pink-400 active:bg-pink-400 focus:outline-none"
+                            <div className="inline-block rounded-full px-3 py-1 text-sm font-semibold font-serif text-gray-700 mr-2 mb-2">£{product.price}</div>
+                            <button   className="inline-block bg-pink-300 rounded-full px-3 py-1 text-sm font-semibold font-serif text-gray-700 mr-2 mb-2 hover:bg-pink-400 active:bg-pink-400 focus:outline-none"
                                       onClick={handleAddToCartClick}>Add to cart</button>
                         </div>
                     </div>

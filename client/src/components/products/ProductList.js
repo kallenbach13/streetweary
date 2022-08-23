@@ -14,7 +14,7 @@ const ProductList = () => {
   const productsStatus = useSelector(selectFetchAllProductsStatus)
 
   const [data, setData] = useState([])
-  const [perPage] = useState(6)
+  const [perPage] = useState(8)
   const [pageCount, setPageCount] = useState(0)
   const { productOffset = 0 }= useParams()
   let history = useHistory()
