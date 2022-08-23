@@ -78,13 +78,13 @@ const Login = () => {
           <form onSubmit={handleSubmit(handleLogin)}>
 
             {needsCheckoutRedirect &&
-            <p className="m-4 text-gray-700 text-lg text-base text-center"
+            <p className="m-4 text-gray-700 text-lg font-serif text-base text-center"
               >Please log in or create an account to continue checking out.
             </p>
             }
 
             <div className="p-2">
-              <label htmlFor="email" className="block text-md font-medium text-gray-700">Email:</label>
+              <label htmlFor="email" className="block text-md font-medium font-serif text-gray-700">Email:</label>
               <input  name="email" className="border rounded w-full p-1 border-pink-300" 
                       ref={register({
                         required: "Required",
@@ -97,7 +97,7 @@ const Login = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password" className="font-serif">Password:</label>
               <input  name="password" type="password" className="border rounded w-full p-1 border-pink-300"
                       ref={register({ required: true })} />
               {formState.errors.password?.type === 'required' && 'Password is required.'}
@@ -106,10 +106,10 @@ const Login = () => {
             <div className="p-2">
                 <input  type="submit"
                         value="Login"
-                        className="mr-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"/>
+                        className="mr-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium font-serif rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"/>
                 
                 <Link to="/register">
-                    <button className="m-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400">
+                    <button className="m-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium font-serif rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400">
                         Create new account
                     </button>
                 </Link>
@@ -117,7 +117,7 @@ const Login = () => {
           </form>
 
           <a href={googleURL}>
-            <button  className="m-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400">
+            <button  className="m-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium font-serif rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400">
             <span className="mr-2"><FontAwesomeIcon icon={faGoogle} size="lg"/></span>
             <span>Login with Google</span>
             </button>

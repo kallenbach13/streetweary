@@ -65,7 +65,7 @@ function Nav() {
 
               <div className="m-2">
                 <Link to="/cart">
-                  <button className="py-4 px-1 space-x-10 relative border-2 border-transparent text-md lg:text-lg text-gray-500 rounded-full hover:text-gray-400 focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Cart">
+                  <button className="py-4 px-1 space-x-10 relative border-2 border-transparent text-md font-serif lg:text-lg text-gray-500 rounded-full hover:text-gray-400 focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Cart">
                     <p className="space-y-2">Cart</p>
                     <span className="absolute inset-0 object-right-top -mr-6">
                       <div className="inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-pink-300 text-white">

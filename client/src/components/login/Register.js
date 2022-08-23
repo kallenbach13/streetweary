@@ -80,7 +80,7 @@ const Register = () => {
           <form onSubmit={handleSubmit(handleRegisterUser)}>
 
             <div className="p-2">
-              <label htmlFor="email" className="block text-md font-medium text-gray-700">Email:</label>
+              <label htmlFor="email" className="block text-md font-medium font-serif text-gray-700">Email:</label>
               <input  name="email" className="border rounded w-full p-1 border-pink-300" 
                       ref={register({
                         required: "Email is required",
@@ -95,7 +95,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password" className="font-serif">Password:</label>
               <input  name="password" className="border rounded w-full p-1 border-pink-300"
                       type="password"
                       ref={register({
@@ -109,7 +109,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="repeatPassword">Confirm Password:</label>
+              <label htmlFor="repeatPassword" className="font-serif">Confirm Password:</label>
               <input  name="repeatPassword" className="border rounded w-full p-1 border-pink-300"
                       type="password"
                       ref={register({
@@ -120,7 +120,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="firstName">First Name:</label>
+              <label htmlFor="firstName" className="font-serif">First Name:</label>
               <input  name="firstName" label="Name:" className="border rounded w-full p-1 border-pink-300" 
                       ref={register({
                         required: true,
@@ -131,7 +131,7 @@ const Register = () => {
             </div>       
             
             <div className="p-2">
-              <label htmlFor="lastName">Last Name:</label>
+              <label htmlFor="lastName" className="font-serif">Last Name:</label>
               <input  name="lastName" className="border rounded w-full p-1 border-pink-300"
                       ref={register({
                         required: true,
@@ -142,7 +142,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="address1">Address Line 1:</label>
+              <label htmlFor="address1" className="font-serif">Address Line 1:</label>
               <input  name="address1" className="border rounded w-full p-1 border-pink-300"
                       ref={register({
                         required: true,
@@ -153,7 +153,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="address2">Address Line 2:</label>
+              <label htmlFor="address2" className="font-serif">Address Line 2:</label>
               <input  name="address2" className="border rounded w-full p-1 border-pink-300"
                       ref={register({
                         maxLength: 100
@@ -162,7 +162,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="postcode">Post Code:</label>
+              <label htmlFor="postcode" className="font-serif">Post Code:</label>
               <input  name="postcode" className="border rounded w-full p-1 border-pink-300"
                       ref={register({
                         required: true,
@@ -173,7 +173,7 @@ const Register = () => {
             </div>    
             
             <div className="p-2">
-              <label htmlFor="city">City:</label>
+              <label htmlFor="city" className="font-serif">City:</label>
               <input  name="city" className="border rounded w-full p-1 border-pink-300"
                       ref={register({
                         required: true,
@@ -183,7 +183,7 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <label htmlFor="country">Country:</label>
+              <label htmlFor="country" className="font-serif">Country:</label>
               <input  name="country" className="border rounded w-full p-1 border-pink-300"
                       ref={register({
                         maxLength: 100
@@ -192,11 +192,11 @@ const Register = () => {
             </div>
 
             <div className="p-2">
-              <input type="submit" value="Create your account" className="my-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"/>
+              <input type="submit" value="Create your account" className="my-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium font-serif rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"/>
             </div>
             <div>
               <Link to="/login">
-                <button className="wrap m-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400">
+                <button className="wrap m-2 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium font-serif rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400">
                   Go to Sign-In page
                 </button>
               </Link>

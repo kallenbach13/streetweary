@@ -33,12 +33,12 @@ const CartProduct = ({cartItem, quantity}) => {
                     <img className="m-2 hidden sm:block max-h-24 rounded" src={cartItem.image_url} alt="" />
                 </div>
                 <div className="m-2 flex-grow">
-                    <p>{cartItem.name}</p>
+                    <p className="font-serif">{cartItem.name}</p>
                 </div>
                 <div className="m-2">
-                    <p>£{cartItem.price}</p>
+                    <p className="font-serif">£{cartItem.price}</p>
                 </div>
-                <select className="m-2 border border-solid" value={productQty} onChange={event => setProductQty(event.target.value)}>
+                <select className="m-2 border border-solid font-serif" value={productQty} onChange={event => setProductQty(event.target.value)}>
                     <option value='1'>1</option>
                     <option value='2'>2</option>
                     <option value='3'>3</option>
@@ -52,7 +52,7 @@ const CartProduct = ({cartItem, quantity}) => {
                 </select>
                 <div className="m-2">
                     <button onClick={handleRemoveProduct} 
-                    className="m-4 mt-4 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"
+                    className="m-4 mt-4 py-2 px-4 cursor-pointer border border-transparent shadow-sm text-sm font-medium font-serif rounded-md text-white bg-pink-300 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400"
                     >Remove</button>
                 </div>
         </div>
