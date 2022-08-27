@@ -25,7 +25,7 @@ Use the **products.sql** file in the same directory to insert some items into th
 
 #### Server
 
-These instructions are meant to be done solely in the server diretory:
+These instructions are meant to be done solely in the server diretory.
 
 Create an .env file with these environment variables (values can be with or without quotes):
 
@@ -55,7 +55,7 @@ This should set the app listening at [http://localhost:5000](http://localhost:50
 
 #### Client
 
-These instructions are meant to be done solely in the client diretory:
+These instructions are meant to be done solely in the client diretory.
 
 Create an .env file with these environment variables (values can be with or without quotes):
 
