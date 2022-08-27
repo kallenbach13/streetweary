@@ -1,4 +1,5 @@
-These are things I took out of the ap in order to deploy it. They really should be put back in.
+These are code snippets I took out of the passport.js file in order to deploy it, as it was causing errors. They need to be put back in at some point to allow
+for creation of accounts and google logins.
 
 const GoogleStrategy = require('passport-google-oauth20').Strategy
 const JWTstrategy = require('passport-jwt').Strategy;
