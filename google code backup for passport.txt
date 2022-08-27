@@ -1,5 +1,8 @@
-const GoogleStrategy = require('passport-google-oauth20').Strategy
+These are things I took out of the ap in order to deploy it. They really should be put back in.
 
+const GoogleStrategy = require('passport-google-oauth20').Strategy
+const JWTstrategy = require('passport-jwt').Strategy;
+const ExtractJWT = require('passport-jwt').ExtractJwt;
 
 
 passport.use(new GoogleStrategy({
