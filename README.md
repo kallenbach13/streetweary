@@ -75,8 +75,7 @@ This will install all modules and dependencies needed to run the app.
 
 This should open your app at [http://localhost:3000](http://localhost:3000).
 
-<br>
+
 #### My Links:
 [Personal Portfolio](https://kallenbach13.github.io/personal-portfolio-website/)
-<br>
 [Github](https://github.com/kallenbach13)
