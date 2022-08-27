@@ -1,2 +1,0 @@
-# Localhost port
-PORT=5000
