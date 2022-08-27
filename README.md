@@ -59,9 +59,9 @@ These instructions are meant to be done solely in the client diretory.
 
 Create an .env file with these environment variables (values can be with or without quotes):
 
-- **REACT_APP_SERVER_URL=**http://localhost:5000/api
-- **REACT_APP_DEV_URL=**http://localhost:5000
-- **REACT_APP_GOOGLE_URL=**http://locahost:5000/api/auth/google
+- **REACT_APP_SERVER_URL=** http://localhost:5000/api
+- **REACT_APP_DEV_URL=** http://localhost:5000
+- **REACT_APP_GOOGLE_URL=** http://locahost:5000/api/auth/google
 
 I have localhost:5000, but remember this should be whatever the PORT= env variable is in the server directory.
 
