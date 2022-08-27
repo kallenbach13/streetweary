@@ -1,6 +1,6 @@
 # streetweary
 
-Deployed At: [hhttps://streetweary.netlify.app/](https://streetweary.netlify.app/).
+Deployed At: [hhttps://streetweary.netlify.app/](https://streetweary.netlify.app/)
 
 ### Created By Isak Kallenbach
 
