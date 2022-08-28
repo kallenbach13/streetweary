@@ -1,5 +1,0 @@
-To be used in case you need to go back to local development.
-
-REACT_APP_SERVER_URL=http://localhost:5000/api
-REACT_APP_DEV_URL=http://localhost:5000
-REACT_APP_GOOGLE_URL=http://locahost:5000/api/auth/google
