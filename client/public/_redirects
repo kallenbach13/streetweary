@@ -1,2 +1,2 @@
-/api/*  https://monster-hunters-guide.herokuapp.com/api/:splat  200
+/api/*  https://streetweary.herokuapp.com/api/:splat  200
 /*    /index.html   200
