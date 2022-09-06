@@ -77,6 +77,6 @@ This should open your app at [http://localhost:3000](http://localhost:3000).
 
 
 #### My Links:
-[Personal Portfolio](https://kallenbach13.github.io/personal-portfolio-website/)
+[Personal Portfolio](https://isakkallenbach.netlify.app/)
 <br>
 [Github](https://github.com/kallenbach13)
