@@ -6,6 +6,7 @@ import { needsCheckoutRedirectUpdated } from '../../features/cart/cartSlice'
 import ReactPaginate from 'react-paginate'
 import './Pagination.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleNotch } from '@fortawesome/free-solid-svg-icons'
 import { useHistory, useParams } from 'react-router-dom'
 
 const ProductList = () => {
@@ -43,7 +44,7 @@ const ProductList = () => {
   return (
             <div className="flex flex-col flex-grow">
    
-            { productsStatus === 'loading' && <FontAwesomeIcon  className="mt-20 mx-auto" icon="fas fa-spinner" size="4x" spin/>}
+   { productsStatus === 'loading' && <FontAwesomeIcon  className="mt-20 mx-auto" icon={faCircleNotch} size="4x" spin/>}
 
               { productsStatus === 'failed' &&
                 <div className="p-4 mt-20 mx-auto max-w-screen-2xl">
